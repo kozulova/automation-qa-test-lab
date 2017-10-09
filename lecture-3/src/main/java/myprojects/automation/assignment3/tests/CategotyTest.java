@@ -7,6 +7,7 @@ package myprojects.automation.assignment3.tests;
         import org.openqa.selenium.support.ui.ExpectedConditions;
         import org.openqa.selenium.support.ui.WebDriverWait;
 
+        import java.util.List;
 
 
 public class CategotyTest extends BaseScript{
@@ -18,7 +19,8 @@ public class CategotyTest extends BaseScript{
     By categorySubmit = By.id("category_form_submit_btn");
     By downIcon = By.xpath("//*[@id=\"table-category\"]/thead/tr[1]/th[3]/span/a[2]");
     By alert = By.className("alert-success");
-    String categoryTitleText = "New category";
+    By categories = By.xpath("//table[@class=\"table category\"]//td[3]");
+    String categoryTitleText = "New shop category";
 
     public CategotyTest(EventFiringWebDriver driver) {
         this.driver = driver;
@@ -38,7 +40,7 @@ public class CategotyTest extends BaseScript{
         WebElement catalogTabElement = driver.findElement(catalog);
         Actions actions = new Actions(driver);
         actions.moveToElement(catalogTabElement).build().perform();
-        WebDriverWait wait = new WebDriverWait(driver, 10);
+        WebDriverWait wait = new WebDriverWait(driver, 20);
         wait.until(ExpectedConditions. elementToBeClickable(category));
         catalogTabElement.findElement(category).click();
         wait.until(ExpectedConditions. elementToBeClickable(addCategory));
@@ -59,5 +61,16 @@ public class CategotyTest extends BaseScript{
         }
         driver.findElement(downIcon).click();
 
+    }
+
+    public void categoryAddCheck(){
+        List<WebElement> categoriesValues =  driver.findElements(categories);
+
+        for(int i=0; i<categoriesValues.size(); i++){
+            if(categoriesValues.get(i).getText().equals(categoryTitleText)){
+                System.out.println(categoriesValues.get(i).getText()+" IS IN CATEGORY TABLE");
+
+            }
+        }
     }
 }

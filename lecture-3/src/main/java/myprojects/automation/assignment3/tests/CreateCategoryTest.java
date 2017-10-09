@@ -23,6 +23,7 @@ public class CreateCategoryTest extends BaseScript {
         category.catalogClick();
         // check that new category appears in Categories table
         category.categoryCheck();
+        category.categoryAddCheck();
         // finish script
         login.LogOut();
         driver.quit();
