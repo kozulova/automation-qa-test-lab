@@ -1,0 +1,158 @@
+<html>
+<head>
+<title>TestNG:  Create New Product [Chrome]</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Create New Product [Chrome]</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 12 11:21:28 EEST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>14 seconds (14949 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='myprojects.automation.assignment4.tests.CreateProductTest.checkProductAppearance()'><b>checkProductAppearance</b><br>Test class: myprojects.automation.assignment4.tests.CreateProductTest<br/>
+<a href="#Output-2097905212" onClick='toggleBox("Output-2097905212", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2097905212" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2097905212">
+[11:21:40.453] Navigate to http://prestashop-automation.qatestlab.com.ua/<br/>
+[11:21:41.566] Execute script: scroll(0, 1000)<br/>
+[11:21:41.571] Script executed<br/>
+[11:21:41.571] Search for element By.className: all-product-link<br/>
+[11:21:41.598] Click on element a<br/>
+[11:21:42.365] Execute script: scroll(0, 1000)<br/>
+[11:21:42.37 ] Script executed<br/>
+[11:21:42.37 ] Search for element By.partialLinkText: New Product 1507796488276<br/>
+[11:21:42.445] Click on element a<br/>
+[11:21:43.126] Search for element By.className: h1<br/>
+[11:21:43.168] Search for element By.className: h1<br/>
+[11:21:43.184] Search for element By.cssSelector: .current-price span<br/>
+[11:21:43.224] Search for element By.cssSelector: .product-quantities span<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>myprojects.automation.assignment4.tests.CreateProductTest@5315b42e</td></tr>
+<tr>
+<td title='myprojects.automation.assignment4.tests.CreateProductTest.createNewProduct()'><b>createNewProduct</b><br>Test class: myprojects.automation.assignment4.tests.CreateProductTest<br>Parameters: webinar.test@gmail.com, Xcg7299bnSmMuRLp9ITw<br/>
+<a href="#Output-1704237553" onClick='toggleBox("Output-1704237553", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1704237553" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1704237553">
+[11:21:30.255] Navigate to http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0/<br/>
+[11:21:32.281] Search for element By.id: email<br/>
+[11:21:32.343] Change value of input: webinar.test@gmail.com
+<br/>
+[11:21:32.448] Changed element input<br/>
+[11:21:32.448] Search for element By.id: passwd<br/>
+[11:21:32.473] Change value of input: Xcg7299bnSmMuRLp9ITw
+<br/>
+[11:21:32.579] Changed element input<br/>
+[11:21:32.579] Search for element By.name: submitLogin<br/>
+[11:21:32.605] Click on element button<br/>
+[11:21:32.684] Execute script: return document.readyState<br/>
+[11:21:32.691] Script executed<br/>
+[11:21:32.691] Search for element By.id: subtab-AdminCatalog<br/>
+[11:21:34.222] Search for element By.id: subtab-AdminProducts<br/>
+[11:21:34.352] Search for element By.id: subtab-AdminProducts<br/>
+[11:21:34.38 ] Found element li<br/>
+[11:21:34.399] Click on element li<br/>
+[11:21:36.099] Execute script: return document.readyState<br/>
+[11:21:36.108] Script executed<br/>
+[11:21:36.108] Execute script: return document.readyState<br/>
+[11:21:36.119] Script executed<br/>
+[11:21:36.119] Search for element By.id: page-header-desc-configuration-add<br/>
+[11:21:36.148] Click on element a<br/>
+[11:21:39.149] Execute script: return document.readyState<br/>
+[11:21:39.154] Script executed<br/>
+[11:21:39.154] Search for element By.id: form_step1_name_1<br/>
+[11:21:39.179] Change value of input: New Product 1507796488276
+<br/>
+[11:21:39.897] Changed element input<br/>
+[11:21:39.897] Search for element By.id: form_step1_qty_0_shortcut<br/>
+[11:21:39.921] Change value of input: 67
+<br/>
+[11:21:40.017] Changed element input<br/>
+[11:21:40.017] Search for element By.id: form_step1_price_ttc_shortcut<br/>
+[11:21:40.042] Change value of input: 96,72
+<br/>
+[11:21:40.253] Changed element input<br/>
+[11:21:40.253] Search for element By.className: switch-input<br/>
+[11:21:40.279] Click on element div<br/>
+[11:21:40.341] Search for element By.id: submit<br/>
+[11:21:40.372] Click on element input<br/>
+[11:21:40.447] Execute script: return document.readyState<br/>
+[11:21:40.451] Script executed<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>myprojects.automation.assignment4.tests.CreateProductTest@5315b42e</td></tr>
+</table><p>
+</body>
+</html>

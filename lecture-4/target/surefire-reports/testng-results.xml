@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" total="6" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[[11:18:30.043] Navigate to http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0/]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:31.431] Search for element By.id: email]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:31.483] Change value of input: webinar.test@gmail.com
+]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:31.6  ] Changed element input]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:31.6  ] Search for element By.id: passwd]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:31.625] Change value of input: Xcg7299bnSmMuRLp9ITw
+]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:31.729] Changed element input]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:31.729] Search for element By.name: submitLogin]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:31.756] Click on element button]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:31.835] Execute script: return document.readyState]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:31.842] Script executed]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:31.842] Search for element By.id: subtab-AdminCatalog]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:33.432] Search for element By.id: subtab-AdminProducts]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:33.582] Search for element By.id: subtab-AdminProducts]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:33.617] Found element li]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:33.622] Click on element li]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:35.441] Execute script: return document.readyState]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:35.449] Script executed]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:35.449] Execute script: return document.readyState]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:35.455] Script executed]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:35.455] Search for element By.id: page-header-desc-configuration-add]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:35.486] Click on element a]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:38.225] Execute script: return document.readyState]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:38.231] Script executed]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:38.231] Search for element By.id: form_step1_name_1]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:38.256] Change value of input: New Product 1507796307728
+]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:38.966] Changed element input]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:38.966] Search for element By.id: form_step1_qty_0_shortcut]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:38.993] Change value of input: 90
+]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:39.091] Changed element input]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:39.091] Search for element By.id: form_step1_price_ttc_shortcut]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:39.119] Change value of input: 74,26
+]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:39.325] Changed element input]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:39.326] Search for element By.className: switch-input]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:39.359] Click on element div]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:39.424] Search for element By.id: submit]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:39.456] Click on element input]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:39.514] Execute script: return document.readyState]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:39.518] Script executed]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:39.52 ] Navigate to http://prestashop-automation.qatestlab.com.ua/]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:40.704] Execute script: scroll(0, 1000)]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:40.713] Script executed]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:40.713] Search for element By.className: all-product-link]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:40.742] Click on element a]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:41.505] Execute script: scroll(0, 1000)]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:41.509] Script executed]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:41.509] Search for element By.partialLinkText: New Product 1507796307728]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:41.595] Click on element a]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:42.19 ] Search for element By.className: h1]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:42.242] Search for element By.className: h1]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:42.259] Search for element By.cssSelector: .current-price span]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:42.3  ] Search for element By.cssSelector: .product-quantities span]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:43.707] Navigate to http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0/]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:46.038] Search for element By.id: email]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:46.064] Change value of input: webinar.test@gmail.com
+]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:46.185] Changed element input]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:46.185] Search for element By.id: passwd]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:46.209] Change value of input: Xcg7299bnSmMuRLp9ITw
+]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:46.313] Changed element input]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:46.313] Search for element By.name: submitLogin]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:46.339] Click on element button]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:46.418] Execute script: return document.readyState]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:46.423] Script executed]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:46.423] Search for element By.id: subtab-AdminCatalog]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:47.88 ] Search for element By.id: subtab-AdminProducts]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:48.441] Search for element By.id: subtab-AdminProducts]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:48.478] Search for element By.id: subtab-AdminProducts]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:48.508] Found element li]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:48.513] Click on element li]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:50.369] Execute script: return document.readyState]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:50.378] Script executed]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:50.378] Execute script: return document.readyState]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:50.385] Script executed]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:50.385] Search for element By.id: page-header-desc-configuration-add]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:50.415] Click on element a]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:52.812] Execute script: return document.readyState]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:52.817] Script executed]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:52.817] Search for element By.id: form_step1_name_1]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:52.841] Change value of input: New Product 1507796307746
+]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:53.547] Changed element input]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:53.547] Search for element By.id: form_step1_qty_0_shortcut]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:53.571] Change value of input: 63
+]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:53.685] Changed element input]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:53.685] Search for element By.id: form_step1_price_ttc_shortcut]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:53.716] Change value of input: 94,52
+]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:53.933] Changed element input]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:53.933] Search for element By.className: switch-input]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:53.957] Click on element div]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:54.011] Search for element By.id: submit]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:54.049] Click on element input]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:54.115] Execute script: return document.readyState]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:54.119] Script executed]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:54.12 ] Navigate to http://prestashop-automation.qatestlab.com.ua/]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:55.988] Execute script: scroll(0, 1000)]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:55.997] Script executed]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:55.997] Search for element By.className: all-product-link]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:56.028] Click on element a]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:57.033] Execute script: scroll(0, 1000)]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:57.039] Script executed]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:57.039] Search for element By.partialLinkText: New Product 1507796307746]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:57.121] Click on element a]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:57.725] Search for element By.className: h1]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:57.767] Search for element By.className: h1]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:57.781] Search for element By.cssSelector: .current-price span]]>
+    </line>
+    <line>
+      <![CDATA[[11:18:57.821] Search for element By.cssSelector: .product-quantities span]]>
+    </line>
+    <line>
+      <![CDATA[[11:19:00.816] Navigate to http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0/]]>
+    </line>
+    <line>
+      <![CDATA[[11:19:02.129] Search for element By.id: email]]>
+    </line>
+    <line>
+      <![CDATA[[11:19:02.311] Change value of input: webinar.test@gmail.com
+]]>
+    </line>
+  </reporter-output>
+  <suite name="Products Management" duration-ms="144896" started-at="2017-10-12T08:18:27Z" finished-at="2017-10-12T08:20:52Z">
+    <groups>
+    </groups>
+    <test name="Create New Product [Chrome]" duration-ms="14566" started-at="2017-10-12T08:18:27Z" finished-at="2017-10-12T08:18:42Z">
+      <class name="myprojects.automation.assignment4.tests.CreateProductTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@60addb54]" name="setUp" is-config="true" duration-ms="2265" started-at="2017-10-12T11:18:27Z" finished-at="2017-10-12T11:18:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewProduct(java.lang.String, java.lang.String)[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@60addb54]" name="createNewProduct" duration-ms="9491" started-at="2017-10-12T11:18:30Z" finished-at="2017-10-12T11:18:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[webinar.test@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Xcg7299bnSmMuRLp9ITw]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[11:18:30.043] Navigate to http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0/]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:31.431] Search for element By.id: email]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:31.483] Change value of input: webinar.test@gmail.com
+]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:31.6  ] Changed element input]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:31.6  ] Search for element By.id: passwd]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:31.625] Change value of input: Xcg7299bnSmMuRLp9ITw
+]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:31.729] Changed element input]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:31.729] Search for element By.name: submitLogin]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:31.756] Click on element button]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:31.835] Execute script: return document.readyState]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:31.842] Script executed]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:31.842] Search for element By.id: subtab-AdminCatalog]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:33.432] Search for element By.id: subtab-AdminProducts]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:33.582] Search for element By.id: subtab-AdminProducts]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:33.617] Found element li]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:33.622] Click on element li]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:35.441] Execute script: return document.readyState]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:35.449] Script executed]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:35.449] Execute script: return document.readyState]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:35.455] Script executed]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:35.455] Search for element By.id: page-header-desc-configuration-add]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:35.486] Click on element a]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:38.225] Execute script: return document.readyState]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:38.231] Script executed]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:38.231] Search for element By.id: form_step1_name_1]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:38.256] Change value of input: New Product 1507796307728
+]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:38.966] Changed element input]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:38.966] Search for element By.id: form_step1_qty_0_shortcut]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:38.993] Change value of input: 90
+]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:39.091] Changed element input]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:39.091] Search for element By.id: form_step1_price_ttc_shortcut]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:39.119] Change value of input: 74,26
+]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:39.325] Changed element input]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:39.326] Search for element By.className: switch-input]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:39.359] Click on element div]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:39.424] Search for element By.id: submit]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:39.456] Click on element input]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:39.514] Execute script: return document.readyState]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:39.518] Script executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createNewProduct -->
+        <test-method status="PASS" signature="checkProductAppearance()[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@60addb54]" name="checkProductAppearance" duration-ms="2808" started-at="2017-10-12T11:18:39Z" depends-on-methods="myprojects.automation.assignment4.tests.CreateProductTest.createNewProduct" finished-at="2017-10-12T11:18:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[11:18:39.52 ] Navigate to http://prestashop-automation.qatestlab.com.ua/]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:40.704] Execute script: scroll(0, 1000)]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:40.713] Script executed]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:40.713] Search for element By.className: all-product-link]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:40.742] Click on element a]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:41.505] Execute script: scroll(0, 1000)]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:41.509] Script executed]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:41.509] Search for element By.partialLinkText: New Product 1507796307728]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:41.595] Click on element a]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:42.19 ] Search for element By.className: h1]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:42.242] Search for element By.className: h1]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:42.259] Search for element By.cssSelector: .current-price span]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:42.3  ] Search for element By.cssSelector: .product-quantities span]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkProductAppearance -->
+      </class> <!-- myprojects.automation.assignment4.tests.CreateProductTest -->
+    </test> <!-- Create New Product [Chrome] -->
+    <test name="Create New Product [Firefox]" duration-ms="15517" started-at="2017-10-12T08:18:42Z" finished-at="2017-10-12T08:18:57Z">
+      <class name="myprojects.automation.assignment4.tests.CreateProductTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@366e2eef]" name="setUp" is-config="true" duration-ms="1364" started-at="2017-10-12T11:18:42Z" finished-at="2017-10-12T11:18:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewProduct(java.lang.String, java.lang.String)[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@366e2eef]" name="createNewProduct" duration-ms="10412" started-at="2017-10-12T11:18:43Z" finished-at="2017-10-12T11:18:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[webinar.test@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Xcg7299bnSmMuRLp9ITw]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[11:18:43.707] Navigate to http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0/]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:46.038] Search for element By.id: email]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:46.064] Change value of input: webinar.test@gmail.com
+]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:46.185] Changed element input]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:46.185] Search for element By.id: passwd]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:46.209] Change value of input: Xcg7299bnSmMuRLp9ITw
+]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:46.313] Changed element input]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:46.313] Search for element By.name: submitLogin]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:46.339] Click on element button]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:46.418] Execute script: return document.readyState]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:46.423] Script executed]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:46.423] Search for element By.id: subtab-AdminCatalog]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:47.88 ] Search for element By.id: subtab-AdminProducts]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:48.441] Search for element By.id: subtab-AdminProducts]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:48.478] Search for element By.id: subtab-AdminProducts]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:48.508] Found element li]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:48.513] Click on element li]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:50.369] Execute script: return document.readyState]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:50.378] Script executed]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:50.378] Execute script: return document.readyState]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:50.385] Script executed]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:50.385] Search for element By.id: page-header-desc-configuration-add]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:50.415] Click on element a]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:52.812] Execute script: return document.readyState]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:52.817] Script executed]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:52.817] Search for element By.id: form_step1_name_1]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:52.841] Change value of input: New Product 1507796307746
+]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:53.547] Changed element input]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:53.547] Search for element By.id: form_step1_qty_0_shortcut]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:53.571] Change value of input: 63
+]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:53.685] Changed element input]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:53.685] Search for element By.id: form_step1_price_ttc_shortcut]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:53.716] Change value of input: 94,52
+]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:53.933] Changed element input]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:53.933] Search for element By.className: switch-input]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:53.957] Click on element div]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:54.011] Search for element By.id: submit]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:54.049] Click on element input]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:54.115] Execute script: return document.readyState]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:54.119] Script executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createNewProduct -->
+        <test-method status="PASS" signature="checkProductAppearance()[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@366e2eef]" name="checkProductAppearance" duration-ms="3740" started-at="2017-10-12T11:18:54Z" depends-on-methods="myprojects.automation.assignment4.tests.CreateProductTest.createNewProduct" finished-at="2017-10-12T11:18:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[11:18:54.12 ] Navigate to http://prestashop-automation.qatestlab.com.ua/]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:55.988] Execute script: scroll(0, 1000)]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:55.997] Script executed]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:55.997] Search for element By.className: all-product-link]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:56.028] Click on element a]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:57.033] Execute script: scroll(0, 1000)]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:57.039] Script executed]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:57.039] Search for element By.partialLinkText: New Product 1507796307746]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:57.121] Click on element a]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:57.725] Search for element By.className: h1]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:57.767] Search for element By.className: h1]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:57.781] Search for element By.cssSelector: .current-price span]]>
+            </line>
+            <line>
+              <![CDATA[[11:18:57.821] Search for element By.cssSelector: .product-quantities span]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkProductAppearance -->
+      </class> <!-- myprojects.automation.assignment4.tests.CreateProductTest -->
+    </test> <!-- Create New Product [Firefox] -->
+    <test name="Create New Product [ie]" duration-ms="114798" started-at="2017-10-12T08:18:57Z" finished-at="2017-10-12T08:20:52Z">
+      <class name="myprojects.automation.assignment4.tests.CreateProductTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@36f6e879]" name="setUp" is-config="true" duration-ms="2956" started-at="2017-10-12T11:18:57Z" finished-at="2017-10-12T11:19:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ie]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="createNewProduct(java.lang.String, java.lang.String)[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@36f6e879]" name="createNewProduct" duration-ms="111833" started-at="2017-10-12T11:19:00Z" finished-at="2017-10-12T11:20:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[webinar.test@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Xcg7299bnSmMuRLp9ITw]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[Element is no longer valid (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'comp1', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:48493/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 13e164ed-18d6-4692-99af-7649839c0351]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: Element is no longer valid (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'comp1', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:48493/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 13e164ed-18d6-4692-99af-7649839c0351
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.getTagName(RemoteWebElement.java:120)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:331)
+	at com.sun.proxy.$Proxy6.getTagName(Unknown Source)
+	at myprojects.automation.assignment4.utils.logging.EventHandler.afterChangeValueOf(EventHandler.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$1.invoke(EventFiringWebDriver.java:80)
+	at com.sun.proxy.$Proxy4.afterChangeValueOf(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:355)
+	at myprojects.automation.assignment4.GeneralActions.login(GeneralActions.java:43)
+	at myprojects.automation.assignment4.tests.CreateProductTest.createNewProduct(CreateProductTest.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+            <line>
+              <![CDATA[[11:19:00.816] Navigate to http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0/]]>
+            </line>
+            <line>
+              <![CDATA[[11:19:02.129] Search for element By.id: email]]>
+            </line>
+            <line>
+              <![CDATA[[11:19:02.311] Change value of input: webinar.test@gmail.com
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createNewProduct -->
+        <test-method status="SKIP" signature="checkProductAppearance()[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@36f6e879]" name="checkProductAppearance" duration-ms="0" started-at="2017-10-12T11:20:52Z" depends-on-methods="myprojects.automation.assignment4.tests.CreateProductTest.createNewProduct" finished-at="2017-10-12T11:20:52Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method CreateProductTest.checkProductAppearance()[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@36f6e879] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method CreateProductTest.checkProductAppearance()[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@36f6e879] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1037)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkProductAppearance -->
+      </class> <!-- myprojects.automation.assignment4.tests.CreateProductTest -->
+    </test> <!-- Create New Product [ie] -->
+  </suite> <!-- Products Management -->
+</testng-results>

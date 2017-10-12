@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Products_Management">
+              <span class="suite-name border-failed">Products Management</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Products_Management">
+                    <span>D:\Valentyna\automation\Lecture4\hometask\lecture-4\target\test-classes\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Products_Management">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Products_Management">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Products_Management">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Products_Management">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Products_Management">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Products_Management">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 1 failed,  1 skipped,  4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Products_Management" class="hide-methods failed suite-Products_Management"> (hide)</a> <!-- hide-methods failed suite-Products_Management -->
+                      <a href="#" panel-name="suite-Products_Management" class="show-methods failed suite-Products_Management"> (show)</a> <!-- show-methods failed suite-Products_Management -->
+                    </span>
+                    <div class="method-list-content failed suite-Products_Management">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Products_Management" title="myprojects.automation.assignment4.tests.CreateProductTest" hash-for-method="createNewProduct(webinar.test@gmail.com, Xcg7299bnSmMuRLp9ITw)">createNewProduct(webinar.test@gmail.com, Xcg7299bnSmMuRLp9ITw)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Products_Management -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Products_Management" class="hide-methods skipped suite-Products_Management"> (hide)</a> <!-- hide-methods skipped suite-Products_Management -->
+                      <a href="#" panel-name="suite-Products_Management" class="show-methods skipped suite-Products_Management"> (show)</a> <!-- show-methods skipped suite-Products_Management -->
+                    </span>
+                    <div class="method-list-content skipped suite-Products_Management">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Products_Management" title="myprojects.automation.assignment4.tests.CreateProductTest" hash-for-method="checkProductAppearance">checkProductAppearance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Products_Management -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Products_Management" class="hide-methods passed suite-Products_Management"> (hide)</a> <!-- hide-methods passed suite-Products_Management -->
+                      <a href="#" panel-name="suite-Products_Management" class="show-methods passed suite-Products_Management"> (show)</a> <!-- show-methods passed suite-Products_Management -->
+                    </span>
+                    <div class="method-list-content passed suite-Products_Management">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Products_Management" title="myprojects.automation.assignment4.tests.CreateProductTest" hash-for-method="checkProductAppearance">checkProductAppearance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Products_Management" title="myprojects.automation.assignment4.tests.CreateProductTest" hash-for-method="checkProductAppearance">checkProductAppearance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Products_Management" title="myprojects.automation.assignment4.tests.CreateProductTest" hash-for-method="createNewProduct(webinar.test@gmail.com, Xcg7299bnSmMuRLp9ITw)">createNewProduct(webinar.test@gmail.com, Xcg7299bnSmMuRLp9ITw)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Products_Management" title="myprojects.automation.assignment4.tests.CreateProductTest" hash-for-method="createNewProduct(webinar.test@gmail.com, Xcg7299bnSmMuRLp9ITw)">createNewProduct(webinar.test@gmail.com, Xcg7299bnSmMuRLp9ITw)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Products_Management -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Products_Management" class="panel Products_Management">
+          <div class="suite-Products_Management-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">myprojects.automation.assignment4.tests.CreateProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNewProduct(webinar.test@gmail.com, Xcg7299bnSmMuRLp9ITw)">
+                  </a> <!-- createNewProduct(webinar.test@gmail.com, Xcg7299bnSmMuRLp9ITw) -->
+                  <span class="method-name">createNewProduct</span>
+                  <span class="parameters">(webinar.test@gmail.com, Xcg7299bnSmMuRLp9ITw)</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: Element is no longer valid (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;comp1&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:48493/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 13e164ed-18d6-4692-99af-7649839c0351
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.getTagName(RemoteWebElement.java:120)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:331)
+	at com.sun.proxy.$Proxy6.getTagName(Unknown Source)
+	at myprojects.automation.assignment4.utils.logging.EventHandler.afterChangeValueOf(EventHandler.java:83)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$1.invoke(EventFiringWebDriver.java:80)
+	at com.sun.proxy.$Proxy4.afterChangeValueOf(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:355)
+	at myprojects.automation.assignment4.GeneralActions.login(GeneralActions.java:43)
+	at myprojects.automation.assignment4.tests.CreateProductTest.createNewProduct(CreateProductTest.java:28)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Products_Management-class-failed -->
+          <div class="suite-Products_Management-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">myprojects.automation.assignment4.tests.CreateProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkProductAppearance">
+                  </a> <!-- checkProductAppearance -->
+                  <span class="method-name">checkProductAppearance</span>
+                  <div class="stack-trace">java.lang.Throwable: Method CreateProductTest.checkProductAppearance()[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@36f6e879] depends on not successfully finished methods
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Products_Management-class-skipped -->
+          <div class="suite-Products_Management-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">myprojects.automation.assignment4.tests.CreateProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkProductAppearance">
+                  </a> <!-- checkProductAppearance -->
+                  <span class="method-name">checkProductAppearance</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkProductAppearance">
+                  </a> <!-- checkProductAppearance -->
+                  <span class="method-name">checkProductAppearance</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNewProduct(webinar.test@gmail.com, Xcg7299bnSmMuRLp9ITw)">
+                  </a> <!-- createNewProduct(webinar.test@gmail.com, Xcg7299bnSmMuRLp9ITw) -->
+                  <span class="method-name">createNewProduct</span>
+                  <span class="parameters">(webinar.test@gmail.com, Xcg7299bnSmMuRLp9ITw)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNewProduct(webinar.test@gmail.com, Xcg7299bnSmMuRLp9ITw)">
+                  </a> <!-- createNewProduct(webinar.test@gmail.com, Xcg7299bnSmMuRLp9ITw) -->
+                  <span class="method-name">createNewProduct</span>
+                  <span class="parameters">(webinar.test@gmail.com, Xcg7299bnSmMuRLp9ITw)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Products_Management-class-passed -->
+        </div> <!-- panel Products_Management -->
+        <div panel-name="test-xml-Products_Management" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Valentyna\automation\Lecture4\hometask\lecture-4\target\test-classes\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Products Management&quot;&gt;
+  &lt;test name=&quot;Create New Product [Chrome]&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;Xcg7299bnSmMuRLp9ITw&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;parameter name=&quot;login&quot; value=&quot;webinar.test@gmail.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;myprojects.automation.assignment4.tests.CreateProductTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Create New Product [Chrome] --&gt;
+  &lt;test name=&quot;Create New Product [Firefox]&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;Xcg7299bnSmMuRLp9ITw&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Firefox&quot;/&gt;
+    &lt;parameter name=&quot;login&quot; value=&quot;webinar.test@gmail.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;myprojects.automation.assignment4.tests.CreateProductTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Create New Product [Firefox] --&gt;
+  &lt;test name=&quot;Create New Product [ie]&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;Xcg7299bnSmMuRLp9ITw&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;ie&quot;/&gt;
+    &lt;parameter name=&quot;login&quot; value=&quot;webinar.test@gmail.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;myprojects.automation.assignment4.tests.CreateProductTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Create New Product [ie] --&gt;
+  &lt;test name=&quot;Create New Product [ie](failed)&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;Xcg7299bnSmMuRLp9ITw&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;ie&quot;/&gt;
+    &lt;parameter name=&quot;login&quot; value=&quot;webinar.test@gmail.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;myprojects.automation.assignment4.tests.CreateProductTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;checkProductAppearance&quot;/&gt;
+          &lt;include name=&quot;createNewProduct&quot; invocation-numbers=&quot;0&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- myprojects.automation.assignment4.tests.CreateProductTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Create New Product [ie](failed) --&gt;
+&lt;/suite&gt; &lt;!-- Products Management --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Products_Management" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Products Management</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Create New Product [Chrome] (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Create New Product [Firefox] (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Create New Product [ie] (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Create New Product [ie](failed) (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Products_Management" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Products Management</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Products_Management" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Products Management</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Products_Management');
+function tableData_Products_Management() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createNewProduct')
+data.setCell(0, 2, 'myprojects.automation.assignment4.tests.CreateProductTest')
+data.setCell(0, 3, 111833);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createNewProduct')
+data.setCell(1, 2, 'myprojects.automation.assignment4.tests.CreateProductTest')
+data.setCell(1, 3, 10412);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'createNewProduct')
+data.setCell(2, 2, 'myprojects.automation.assignment4.tests.CreateProductTest')
+data.setCell(2, 3, 9491);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkProductAppearance')
+data.setCell(3, 2, 'myprojects.automation.assignment4.tests.CreateProductTest')
+data.setCell(3, 3, 3740);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkProductAppearance')
+data.setCell(4, 2, 'myprojects.automation.assignment4.tests.CreateProductTest')
+data.setCell(4, 3, 2808);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'checkProductAppearance')
+data.setCell(5, 2, 'myprojects.automation.assignment4.tests.CreateProductTest')
+data.setCell(5, 3, 0);
+window.suiteTableData['Products_Management']= { tableData: data, tableDiv: 'times-div-Products_Management'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Products_Management">
+              </div> <!-- times-div-Products_Management -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Products_Management" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Products Management</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkProductAppearance</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[11:18:39.52 ] Navigate to http://prestashop-automation.qatestlab.com.ua/</span>
+                <span class="reporter-method-output">[11:18:40.704] Execute script: scroll(0, 1000)</span>
+                <span class="reporter-method-output">[11:18:40.713] Script executed</span>
+                <span class="reporter-method-output">[11:18:40.713] Search for element By.className: all-product-link</span>
+                <span class="reporter-method-output">[11:18:40.742] Click on element a</span>
+                <span class="reporter-method-output">[11:18:41.505] Execute script: scroll(0, 1000)</span>
+                <span class="reporter-method-output">[11:18:41.509] Script executed</span>
+                <span class="reporter-method-output">[11:18:41.509] Search for element By.partialLinkText: New Product 1507796307728</span>
+                <span class="reporter-method-output">[11:18:41.595] Click on element a</span>
+                <span class="reporter-method-output">[11:18:42.19 ] Search for element By.className: h1</span>
+                <span class="reporter-method-output">[11:18:42.242] Search for element By.className: h1</span>
+                <span class="reporter-method-output">[11:18:42.259] Search for element By.cssSelector: .current-price span</span>
+                <span class="reporter-method-output">[11:18:42.3  ] Search for element By.cssSelector: .product-quantities span</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createNewProduct(webinar.test@gmail.com, Xcg7299bnSmMuRLp9ITw)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[11:18:30.043] Navigate to http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0/</span>
+                <span class="reporter-method-output">[11:18:31.431] Search for element By.id: email</span>
+                <span class="reporter-method-output">[11:18:31.483] Change value of input: webinar.test@gmail.com
+</span>
+                <span class="reporter-method-output">[11:18:31.6  ] Changed element input</span>
+                <span class="reporter-method-output">[11:18:31.6  ] Search for element By.id: passwd</span>
+                <span class="reporter-method-output">[11:18:31.625] Change value of input: Xcg7299bnSmMuRLp9ITw
+</span>
+                <span class="reporter-method-output">[11:18:31.729] Changed element input</span>
+                <span class="reporter-method-output">[11:18:31.729] Search for element By.name: submitLogin</span>
+                <span class="reporter-method-output">[11:18:31.756] Click on element button</span>
+                <span class="reporter-method-output">[11:18:31.835] Execute script: return document.readyState</span>
+                <span class="reporter-method-output">[11:18:31.842] Script executed</span>
+                <span class="reporter-method-output">[11:18:31.842] Search for element By.id: subtab-AdminCatalog</span>
+                <span class="reporter-method-output">[11:18:33.432] Search for element By.id: subtab-AdminProducts</span>
+                <span class="reporter-method-output">[11:18:33.582] Search for element By.id: subtab-AdminProducts</span>
+                <span class="reporter-method-output">[11:18:33.617] Found element li</span>
+                <span class="reporter-method-output">[11:18:33.622] Click on element li</span>
+                <span class="reporter-method-output">[11:18:35.441] Execute script: return document.readyState</span>
+                <span class="reporter-method-output">[11:18:35.449] Script executed</span>
+                <span class="reporter-method-output">[11:18:35.449] Execute script: return document.readyState</span>
+                <span class="reporter-method-output">[11:18:35.455] Script executed</span>
+                <span class="reporter-method-output">[11:18:35.455] Search for element By.id: page-header-desc-configuration-add</span>
+                <span class="reporter-method-output">[11:18:35.486] Click on element a</span>
+                <span class="reporter-method-output">[11:18:38.225] Execute script: return document.readyState</span>
+                <span class="reporter-method-output">[11:18:38.231] Script executed</span>
+                <span class="reporter-method-output">[11:18:38.231] Search for element By.id: form_step1_name_1</span>
+                <span class="reporter-method-output">[11:18:38.256] Change value of input: New Product 1507796307728
+</span>
+                <span class="reporter-method-output">[11:18:38.966] Changed element input</span>
+                <span class="reporter-method-output">[11:18:38.966] Search for element By.id: form_step1_qty_0_shortcut</span>
+                <span class="reporter-method-output">[11:18:38.993] Change value of input: 90
+</span>
+                <span class="reporter-method-output">[11:18:39.091] Changed element input</span>
+                <span class="reporter-method-output">[11:18:39.091] Search for element By.id: form_step1_price_ttc_shortcut</span>
+                <span class="reporter-method-output">[11:18:39.119] Change value of input: 74,26
+</span>
+                <span class="reporter-method-output">[11:18:39.325] Changed element input</span>
+                <span class="reporter-method-output">[11:18:39.326] Search for element By.className: switch-input</span>
+                <span class="reporter-method-output">[11:18:39.359] Click on element div</span>
+                <span class="reporter-method-output">[11:18:39.424] Search for element By.id: submit</span>
+                <span class="reporter-method-output">[11:18:39.456] Click on element input</span>
+                <span class="reporter-method-output">[11:18:39.514] Execute script: return document.readyState</span>
+                <span class="reporter-method-output">[11:18:39.518] Script executed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkProductAppearance</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[11:18:54.12 ] Navigate to http://prestashop-automation.qatestlab.com.ua/</span>
+                <span class="reporter-method-output">[11:18:55.988] Execute script: scroll(0, 1000)</span>
+                <span class="reporter-method-output">[11:18:55.997] Script executed</span>
+                <span class="reporter-method-output">[11:18:55.997] Search for element By.className: all-product-link</span>
+                <span class="reporter-method-output">[11:18:56.028] Click on element a</span>
+                <span class="reporter-method-output">[11:18:57.033] Execute script: scroll(0, 1000)</span>
+                <span class="reporter-method-output">[11:18:57.039] Script executed</span>
+                <span class="reporter-method-output">[11:18:57.039] Search for element By.partialLinkText: New Product 1507796307746</span>
+                <span class="reporter-method-output">[11:18:57.121] Click on element a</span>
+                <span class="reporter-method-output">[11:18:57.725] Search for element By.className: h1</span>
+                <span class="reporter-method-output">[11:18:57.767] Search for element By.className: h1</span>
+                <span class="reporter-method-output">[11:18:57.781] Search for element By.cssSelector: .current-price span</span>
+                <span class="reporter-method-output">[11:18:57.821] Search for element By.cssSelector: .product-quantities span</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createNewProduct(webinar.test@gmail.com, Xcg7299bnSmMuRLp9ITw)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[11:18:43.707] Navigate to http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0/</span>
+                <span class="reporter-method-output">[11:18:46.038] Search for element By.id: email</span>
+                <span class="reporter-method-output">[11:18:46.064] Change value of input: webinar.test@gmail.com
+</span>
+                <span class="reporter-method-output">[11:18:46.185] Changed element input</span>
+                <span class="reporter-method-output">[11:18:46.185] Search for element By.id: passwd</span>
+                <span class="reporter-method-output">[11:18:46.209] Change value of input: Xcg7299bnSmMuRLp9ITw
+</span>
+                <span class="reporter-method-output">[11:18:46.313] Changed element input</span>
+                <span class="reporter-method-output">[11:18:46.313] Search for element By.name: submitLogin</span>
+                <span class="reporter-method-output">[11:18:46.339] Click on element button</span>
+                <span class="reporter-method-output">[11:18:46.418] Execute script: return document.readyState</span>
+                <span class="reporter-method-output">[11:18:46.423] Script executed</span>
+                <span class="reporter-method-output">[11:18:46.423] Search for element By.id: subtab-AdminCatalog</span>
+                <span class="reporter-method-output">[11:18:47.88 ] Search for element By.id: subtab-AdminProducts</span>
+                <span class="reporter-method-output">[11:18:48.441] Search for element By.id: subtab-AdminProducts</span>
+                <span class="reporter-method-output">[11:18:48.478] Search for element By.id: subtab-AdminProducts</span>
+                <span class="reporter-method-output">[11:18:48.508] Found element li</span>
+                <span class="reporter-method-output">[11:18:48.513] Click on element li</span>
+                <span class="reporter-method-output">[11:18:50.369] Execute script: return document.readyState</span>
+                <span class="reporter-method-output">[11:18:50.378] Script executed</span>
+                <span class="reporter-method-output">[11:18:50.378] Execute script: return document.readyState</span>
+                <span class="reporter-method-output">[11:18:50.385] Script executed</span>
+                <span class="reporter-method-output">[11:18:50.385] Search for element By.id: page-header-desc-configuration-add</span>
+                <span class="reporter-method-output">[11:18:50.415] Click on element a</span>
+                <span class="reporter-method-output">[11:18:52.812] Execute script: return document.readyState</span>
+                <span class="reporter-method-output">[11:18:52.817] Script executed</span>
+                <span class="reporter-method-output">[11:18:52.817] Search for element By.id: form_step1_name_1</span>
+                <span class="reporter-method-output">[11:18:52.841] Change value of input: New Product 1507796307746
+</span>
+                <span class="reporter-method-output">[11:18:53.547] Changed element input</span>
+                <span class="reporter-method-output">[11:18:53.547] Search for element By.id: form_step1_qty_0_shortcut</span>
+                <span class="reporter-method-output">[11:18:53.571] Change value of input: 63
+</span>
+                <span class="reporter-method-output">[11:18:53.685] Changed element input</span>
+                <span class="reporter-method-output">[11:18:53.685] Search for element By.id: form_step1_price_ttc_shortcut</span>
+                <span class="reporter-method-output">[11:18:53.716] Change value of input: 94,52
+</span>
+                <span class="reporter-method-output">[11:18:53.933] Changed element input</span>
+                <span class="reporter-method-output">[11:18:53.933] Search for element By.className: switch-input</span>
+                <span class="reporter-method-output">[11:18:53.957] Click on element div</span>
+                <span class="reporter-method-output">[11:18:54.011] Search for element By.id: submit</span>
+                <span class="reporter-method-output">[11:18:54.049] Click on element input</span>
+                <span class="reporter-method-output">[11:18:54.115] Execute script: return document.readyState</span>
+                <span class="reporter-method-output">[11:18:54.119] Script executed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createNewProduct(webinar.test@gmail.com, Xcg7299bnSmMuRLp9ITw)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[11:19:00.816] Navigate to http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0/</span>
+                <span class="reporter-method-output">[11:19:02.129] Search for element By.id: email</span>
+                <span class="reporter-method-output">[11:19:02.311] Change value of input: webinar.test@gmail.com
+</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Products_Management" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Products_Management" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">myprojects.automation.assignment4.tests.CreateProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">createNewProduct(webinar.test@gmail.com, Xcg7299bnSmMuRLp9ITw)</span>
+                <span class="method-start">2265 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkProductAppearance</span>
+                <span class="method-start">11758 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(Firefox)</span>
+                <span class="method-start">14581 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">createNewProduct(webinar.test@gmail.com, Xcg7299bnSmMuRLp9ITw)</span>
+                <span class="method-start">15945 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkProductAppearance</span>
+                <span class="method-start">26358 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(ie)</span>
+                <span class="method-start">30098 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createNewProduct(webinar.test@gmail.com, Xcg7299bnSmMuRLp9ITw)</span>
+                <span class="method-start">33054 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
