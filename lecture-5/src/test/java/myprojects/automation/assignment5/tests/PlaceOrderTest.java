@@ -4,10 +4,8 @@ import myprojects.automation.assignment5.BaseTest;
 import myprojects.automation.assignment5.GeneralActions;
 import myprojects.automation.assignment5.model.ProductData;
 import myprojects.automation.assignment5.utils.Properties;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -30,59 +28,38 @@ public class PlaceOrderTest extends BaseTest {
 
     @Test
     public void createNewOrder() {
+        GeneralActions action = new GeneralActions(driver);
         WebDriverWait wait = new WebDriverWait(driver, 30);
-        //GeneralActions action = new GeneralActions(driver);
+        By allProducts = By.className("all-product-link");
         // TODO implement order creation test
         driver.get(Properties.getBaseUrl());
         JavascriptExecutor jse = (JavascriptExecutor) driver;
         jse.executeScript("scroll(0, 1000)");
-        By allProducts = By.className("all-product-link");
         driver.findElement(allProducts).click();
+
         // open random product
-        // TODO implement random search
-        List<WebElement> productTitles = driver.findElements(By.cssSelector("#js-product-list .product-title a"));
-        Random randomGenerator = new Random();
-        int indexOfProductTitle = randomGenerator.nextInt(productTitles.size());
-        //System.out.println(productTitles.size());
-        //System.out.println(indexOfProductTitle);
-        WebElement randomProductTitle = productTitles.get(0);
-        //System.out.println(randomProductTitle.getText());
-        randomProductTitle.click();
-
+        action.openRandomProduct();
         // save product parameters
-
-        String productTitle = driver.findElement(By.className("h1")).getText().toLowerCase();
-        String productPrice = driver.findElement(By.cssSelector(".current-price span")).getText().toLowerCase();
         String productUrl = driver.getCurrentUrl();
+        ProductData product1 = action.getOpenedProductInfo();
 
-        // Loking for count of elemets
-        By moreEl = By.xpath("//*[@id=\"main\"]/div[1]/div[2]/div[2]/div[3]/ul/li[2]/a");
-        By productQtyEl = By.cssSelector(".product-quantities span");
-
-        driver.findElement(moreEl).click();
-        wait.until(ExpectedConditions.textToBePresentInElementLocated(productQtyEl, "Товары"));
-        String productQty = driver.findElement(productQtyEl).getText();
-        productQty = productQty.replaceAll("\\D+","");
-        int productQtyInt = Integer.parseInt(productQty);
-        //System.out.println(productQtyInt);
         // add product to Cart and validate product information in the Cart
 
         driver.findElement(By.className("add-to-cart")).click();
-
-
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"blockcart-modal\"]/div/div/div[2]/div/div[2]/div/a")));
         driver.findElement(By.xpath("//*[@id=\"blockcart-modal\"]/div/div/div[2]/div/div[2]/div/a")).click();
 
-        //wait.until(ExpectedConditions.elementToBeClickable());
         String basketCount = driver.findElement(By.className("js-subtotal")).getText();
-        basketCount = basketCount.substring(0, basketCount.length() - 4);
+        basketCount = basketCount.replaceAll("\\D+","");
         String basketPrice = driver.findElement(By.className("product-price")).getText().toLowerCase();
-        basketPrice = basketPrice.substring(0, basketPrice.length() - 2);
+        basketPrice = basketPrice.replaceAll("\\D+","");
+        float basketPriceFloat = Float.parseFloat(basketPrice);
         String basketTitle = driver.findElement(By.cssSelector(".product-line-info a")).getText().toLowerCase();
-        Assert.assertEquals(basketTitle, productTitle);
-        Assert.assertEquals(basketPrice, basketPrice);
+        Assert.assertEquals(basketTitle, product1.getName());
+        Assert.assertEquals(basketPriceFloat, product1.getPrice());
         Assert.assertEquals(basketCount, "1");
         driver.findElement(By.cssSelector(".checkout a")).click();
+
         // proceed to order creation, fill required information
         driver.findElement(By.name("firstname")).sendKeys("TestName");
         driver.findElement(By.name("lastname")).sendKeys("TestSurname");
@@ -93,12 +70,13 @@ public class PlaceOrderTest extends BaseTest {
         driver.findElement(By.name("city")).sendKeys("TestTown");
         jse.executeScript("scroll(0, 300)");
         driver.findElement(By.name("confirm-addresses")).click();
+
         driver.findElement(By.name("confirmDeliveryOption")).click();
         driver.findElement(By.id("conditions_to_approve[terms-and-conditions]")).click();
         driver.findElement(By.id("payment-option-1")).click();
         driver.findElement(By.xpath("//*[@id=\"payment-confirmation\"]/div[1]/button")).click();
-
         driver.findElement(By.cssSelector(".card-title"));
+
         // place new order and validate order summary
         Assert.assertTrue(driver.findElement(By.className("done")).isDisplayed());
 
@@ -106,20 +84,17 @@ public class PlaceOrderTest extends BaseTest {
         Assert.assertEquals(orderCount, "1");
 
         String orderProductTitles = driver.findElement(By.cssSelector(".details span")).getText().toLowerCase();
-        Assert.assertTrue(orderProductTitles.contains(productTitle));
+        Assert.assertTrue(orderProductTitles.contains(product1.getName()));
 
         String orderPrice = driver.findElement(By.xpath("//*[@id=\"order-items\"]/div/div/div[3]/div/div[3]")).getText().toLowerCase();
-        orderPrice = orderPrice.substring(0, orderPrice.length() - 2);
+        orderPrice = orderPrice.replaceAll("\\D+","");
+        float orderPriceFloat = Float.parseFloat(orderPrice);
         Assert.assertEquals(basketPrice, orderPrice);
 
         // check updated In Stock value
         driver.get(productUrl);
-        driver.findElement(moreEl).click();
-        wait.until(ExpectedConditions.textToBePresentInElementLocated(productQtyEl, "Товары"));
-        String newProductQty = driver.findElement(productQtyEl).getText();
-        newProductQty = newProductQty.replaceAll("\\D+","");
-        int newProductQtyInt = Integer.parseInt(newProductQty);
-        Assert.assertEquals(newProductQtyInt, productQtyInt-1);
+        ProductData product2 = action.getOpenedProductInfo();
+        Assert.assertEquals(product2.getQty(), product1.getQty()-1);
     }
 
 }
